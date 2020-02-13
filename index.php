@@ -1,3 +1,12 @@
+<?php
+	session_start();
+	if($_SESSION["login"] != 1)
+	{
+		session_destroy();
+		header("Location: https://intern.vit-coding.de");
+	}
+?>
+
 <!Doctype>
 <html>
 	<head>
