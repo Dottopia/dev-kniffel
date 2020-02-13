@@ -11,8 +11,6 @@ function wuerfeln(){
 		document.getElementById('w'+i).innerHTML = (Math.floor(Math.random() * 6+1));;
 	}
 	
-	document.getElementById('button_wuerfeln').disabled = true;
-	document.getElementById('button_wuerfeln').style.backgroundColor = 'grey';
 	number_of_dice++;
 	
 	if(number_of_dice > 1){
@@ -21,5 +19,6 @@ function wuerfeln(){
 	
 	if(number_of_dice == 3){
 		document.getElementById('button_wuerfeln').disabled = 'true';
+		document.getElementById('button_wuerfeln').style.backgroundColor = 'grey';
 	}
 }
