@@ -8,8 +8,10 @@ function wuerfeln(){
 			newS.style.color = 'white';
 			newS.id="w"+i;
 			newS.className = 'wuerfel';
-			document.getElementById('w'+i).innerHTML = (Math.floor(Math.random() * 6+1));;
 		}
+	}
+	for(var i = 0; i < 5; i++){
+		document.getElementById('w'+i).innerHTML = (Math.floor(Math.random() * 6+1));
 	}
 	
 	number_of_dice++;
