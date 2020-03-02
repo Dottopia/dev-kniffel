@@ -16,10 +16,11 @@
 	</head>
 	<body>
 		<h1>Kniffel</h1>
-		<button id="button_wuerfeln" onclick="wuerfeln()">W&uuml;rfeln</button>
+		
 		
 		<div id="dice_place">
-			
+			<button id="button_wuerfeln" onclick="wuerfeln()">W&uuml;rfeln</button>	
+			<img src="./pictures/cube.jpg"/ style="width:6em;height:auto;">
 		</div>
 		
 		<div>
