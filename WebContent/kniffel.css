@@ -1,0 +1,53 @@
+*{
+    //position:absolute;
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+html{
+    background-color: #61380B;
+}
+body{
+    background-color: green;
+    margin: 2em;
+    border: 1em green solid;
+    border-radius: 1em;
+}
+h1{
+    text-align:center;
+}
+tr,td,th{
+    border: 0.2em black solid;
+    padding: 0.2em;
+    text-align: center;
+}
+
+#wuerfelbild{
+    width:4em;
+    height:auto;
+    visibility:hidden;
+}
+
+#nochmal_spielen{
+    visibility:hidden;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wuerfel{
+    
+    padding: 0.2em;
+    margin: 0.2em;
+    width: 2em;
+    height: 2em;
+}
+#button_wuerfel{
+    //width: 10em;
+}
+#dice_place{
+    width: 5em;
+    height: 5em;
+    border: 0.2em black dotted;
+}
